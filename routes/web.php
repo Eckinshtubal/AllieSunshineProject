@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('about', function() {
     return "Working?";
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
