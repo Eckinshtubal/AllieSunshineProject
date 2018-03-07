@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c7943e2d-e370-48ff-988f-d4cc6f967957" name="sftp://php.scweb.ca" url="http://php.scweb.ca/~parallax">
+        <fileTransfer host="php.scweb.ca" port="22" rootFolder="/home/parallax/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
