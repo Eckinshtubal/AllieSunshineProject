@@ -12,12 +12,33 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home/index');
 });
 
-Route::get('about', function() {
-    return "Working?";
+Route::get('aboutus', function (){
+    return view('about us/index');
 });
+
+Route::get('getinvolved', function (){
+    return view('get involved/index');
+});
+
+Route::get('shop', function (){
+    return view('shop/index');
+});
+
+Route::get('whatsnew', function (){
+    return view('whats new/index');
+});
+
+Route::get('gallery', function (){
+    return view('gallery/index');
+});
+
+Route::get('contact', function (){
+    return view('contact/index');
+});
+
 
 Auth::routes();
 
