@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('aboutus', function (){
     return view('about us/index');
 });
+<<<<<<< HEAD
 
 Route::get('getinvolved', function (){
     return view('get involved/index');
@@ -43,3 +44,5 @@ Route::get('contact', function (){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+=======
+>>>>>>> 9c392e264327dcc99cabe03e341dcd2196cac3ed
