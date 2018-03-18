@@ -13,4 +13,4 @@
     </head>
     <!-- Content here -->
     <h2>Get Involved</h2>
-@stop
+@endsection

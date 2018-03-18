@@ -23,6 +23,7 @@
             <li><a href="{{ url('gallery') }}">Gallery</a></li>
             <li><a href="{{ url('contact') }}">Contact Us</a></li>
             <li class="active"><a href="{{ url('home') }}">Login</a></li>
+            <li class="active"><a href="{{ url('home') }}">Register</a></li>
         </ul>
 
     </div>

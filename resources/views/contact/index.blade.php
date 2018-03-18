@@ -13,4 +13,4 @@
     </head>
     <!-- Content here -->
     <h2>Contact</h2>
-@stop
+@endsection

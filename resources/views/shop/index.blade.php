@@ -13,4 +13,4 @@
     </head>
     <!-- Content here -->
     <h2>Shop</h2>
-@stop
+@endsection

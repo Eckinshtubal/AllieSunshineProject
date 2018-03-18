@@ -13,4 +13,4 @@
     </head>
     <!-- Content here -->
     <h2>About Us</h2>
-@stop
+@endsection
