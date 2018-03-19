@@ -15,12 +15,16 @@ Route::get('/', function () {
     return view('home/index');
 });
 
-Route::get('aboutus', function (){
-    return view('about us/index');
+Route::get('index', function () {
+    return view('home/index');
+});
+
+Route::get('about', function (){
+    return view('about-us/about');
 });
 
 Route::get('getinvolved', function (){
-    return view('get involved/index');
+    return view('get-involved/getinvolved');
 });
 
 Route::get('shop', function (){
@@ -28,15 +32,15 @@ Route::get('shop', function (){
 });
 
 Route::get('whatsnew', function (){
-    return view('whats new/index');
+    return view('whats-new/whatsnew');
 });
 
 Route::get('gallery', function (){
-    return view('gallery/index');
+    return view('gallery/gallery');
 });
 
 Route::get('contact', function (){
-    return view('contact/index');
+    return view('contact/contact');
 });
 
 
