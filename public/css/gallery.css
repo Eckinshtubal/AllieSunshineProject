@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container > img {
+    padding: 5px;
+}
